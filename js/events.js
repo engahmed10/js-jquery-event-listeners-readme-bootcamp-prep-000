@@ -33,7 +33,8 @@ $(document).ready(function(){
 
 // call functions here
   event.stopPropagation();
-  
+  e.preventDefault();
+
 
 getIt()
 frameIt()
