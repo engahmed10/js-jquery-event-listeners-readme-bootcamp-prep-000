@@ -13,9 +13,9 @@ function frameIt()
 }
 function pressIt()
 {
-  $("form").on("keydown", function(key) {
+  $("form").on("keydown", function() {
     
-    if ($( key.which === "G") {
+    if ($( "input" ) === "G") {
     alert('G is pressed');
     return;
   }
