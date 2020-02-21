@@ -17,7 +17,7 @@ function pressIt()
   $("form").on("keydown", function() {
     
     if ($("input").val() === 'G') {
-   return alert(' G was pressed');
+    return alert(' G was pressed');
     
   }
   alert("you entered the wrong value");
