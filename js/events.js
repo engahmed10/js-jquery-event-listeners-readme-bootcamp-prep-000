@@ -16,11 +16,10 @@ function pressIt()
 {
   $("#typing").on('keydown', function(key) {
     
-    if ( key.which === 71) 
-    {
+     if ( key.which === 71) 
+     {
        return alert(' G was pressed');
      }
- 
   
 });
 }
