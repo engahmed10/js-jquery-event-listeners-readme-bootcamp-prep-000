@@ -20,8 +20,8 @@ function pressIt()
     alert('G is pressed');
     return;
   }
-  alert("you entered the wrong value");
-  return;
+ // alert("you entered the wrong value");
+//  return;
 })
 }
 function submitIt()
