@@ -32,9 +32,7 @@ function submitIt()
 $(document).ready(function(){
 
 // call functions here
-  
-event.preventDefault();
-event.stopPropagation();
+
 getIt()
 frameIt()
 pressIt()
