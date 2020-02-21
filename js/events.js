@@ -19,7 +19,8 @@ function pressIt()
     alert('G is pressed');
     return
   }
-  alert()
+  alert("you entered the wrong value");
+  return
 })
 }
 function submitIt()
