@@ -18,9 +18,9 @@ function pressIt()
     if ($( "input:first" ).val() === "G") {
     alert('G is pressed');
     return
-  }
+  }else{
   alert("you entered the wrong value");
-  return
+  return;}
 })
 }
 function submitIt()
