@@ -33,11 +33,11 @@ $(document).ready(function(){
 
 // call functions here
   
-event.preventDefault();
-event.stopPropagation();
 
 getIt()
 frameIt()
+event.preventDefault();
+event.stopPropagation();
 pressIt()
 submitIt()
 });
