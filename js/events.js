@@ -14,10 +14,10 @@ function frameIt()
 
 function pressIt()
 {
-  $("form").on("keydown", function() {
+  $("input").on("keydown", function() {
     
-    if ($("input").val() === 'G') {
-    return alert(' G was pressed');
+    if (key.which=== 'G') {
+     return alert(' G was pressed');
     
   }
   alert("you entered the wrong value");
