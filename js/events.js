@@ -18,10 +18,10 @@ function pressIt()
     
     if ($( "input:first" ).which === 71) {
     alert(' G was pressed');
-    return;
+    
   }
   alert("you entered the wrong value");
-  return;
+  
 });
 }
 function submitIt()
