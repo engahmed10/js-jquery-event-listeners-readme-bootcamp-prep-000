@@ -17,7 +17,7 @@ function pressIt()
     
     if ($( "input:first" ).val() === "G") {
     alert('G is pressed');
-   // return;
+   
   }
 })
 }
