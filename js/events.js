@@ -16,10 +16,9 @@ function pressIt()
 {
   $("#typing").on('keydown', function(key) {
     
-    if ( key.which === 71) 
+    if ( key.which === "G") 
     {
-      console.log("ahmed afandy")
-     return alert(' G was pressed');
+       return alert(' G was pressed');
      }
  
   
