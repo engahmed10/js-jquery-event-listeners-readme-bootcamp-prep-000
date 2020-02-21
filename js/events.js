@@ -23,7 +23,8 @@ function pressIt()
 }
 function submitIt()
 {
-  $("form").on("keydown", function() {
+  $("form").on("keydown", function() 
+  {
     alert("Your form is going to be submitted now.");
   })
 }
