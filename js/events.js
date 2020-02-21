@@ -14,7 +14,6 @@ function frameIt()
 }
 function pressIt()
 {
-  event.stopPropagation();
   $("form").on("keydown", function() {
     if ($( "input:first" ).val() === "G") {
     alert('G is pressed');
@@ -33,6 +32,8 @@ function submitIt()
 $(document).ready(function(){
 
 // call functions here
+  event.stopPropagation();
+
 getIt()
 frameIt()
 pressIt()
