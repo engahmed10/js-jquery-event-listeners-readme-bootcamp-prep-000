@@ -20,7 +20,8 @@ function pressIt()
    return alert(' G was pressed');
     
   }
-  
+  alert("you entered the wrong value");
+  return;
   
 });
 }
