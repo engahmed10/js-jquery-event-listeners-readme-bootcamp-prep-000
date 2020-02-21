@@ -11,10 +11,10 @@ function frameIt()
     $("img").addClass('tasty').on("load", function(){
                                                       });
 }
-$( "input" ).val()
+
 function pressIt()
 {
-  $("form").on("keydown", function(key) {
+  $("form:input").on("keydown", function(key) {
     
     if (key.which === "G") {
     alert('G is pressed');
