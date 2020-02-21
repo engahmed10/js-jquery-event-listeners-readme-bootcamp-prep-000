@@ -16,7 +16,7 @@ function pressIt()
 {
   $("form").on("keydown", function() {
     
-    if ($( "input:first" ).which === 71) {
+    if ($( "input" ).which === 71) {
    return alert(' G was pressed');
     
   }
