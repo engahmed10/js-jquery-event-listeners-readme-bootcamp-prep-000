@@ -22,7 +22,7 @@ function pressIt()
   }
   alert("you entered the wrong value");
   return;
-})
+});
 }
 function submitIt()
 {
