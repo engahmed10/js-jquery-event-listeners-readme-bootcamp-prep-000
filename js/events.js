@@ -1,12 +1,12 @@
 //define functions here
 function getIt()
-{", function(){
+{
+  $('p').on("click", function(){
     //action you want taken
     alert("Hey!");
 });
 }
 function frameIt()
-  $('p').on("click
 {
     $("img").addClass('tasty').on("load", function(){
                                                       });
