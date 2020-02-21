@@ -9,8 +9,7 @@ function getIt()
 function frameIt()
 {
     $("img").addClass('tasty').on("load", function(){
-   
-   });
+                                                      });
 }
 function pressIt()
 {
